@@ -1,0 +1,74 @@
+body {
+    color: rgb(180, 83, 108);/*cor das letras da minha página*/
+    background-color: rgb(223, 216, 217);/*cor da minha página*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;  /*Formatação do menu*/
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: rgb(173, 39, 61);
+    text-decoration: none;
+   
+}
+
+header img {
+    width: 155px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(173, 39, 61);
+   
+}
+
+.center {
+    text-align: center;
+
+}
+
+h1{
+    color:rgb(173, 39, 61);
+    font-size: 30px;
+}
+
+
+h2{
+    color:rgb(196, 63, 85)
+    font-size: 20px;
+}
+
+footer img {  
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center; 
+}
+
+footer p {
+    margin-top: 4px;
+
+}
+
+.container {
+    padding: 20px 70px;
+     
+}
+
+nav a:hover {
+    color: white;
+}
+
+
